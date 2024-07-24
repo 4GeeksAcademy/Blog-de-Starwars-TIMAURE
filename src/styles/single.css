@@ -1,0 +1,57 @@
+.altura {
+    min-height: 500px;
+    /* Altura mínima */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.limited-image {
+    width: 100%;
+    /* Asegura que la imagen ocupe todo el ancho */
+    height: 500px;
+    /* Ocupa todo el espacio vertical */
+    object-fit: cover;
+    /* Ajuste para evitar distorsión */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.col-md-7 {
+    padding: 0;
+    /* Eliminar padding para asegurar el ancho completo */
+}
+
+.col-md-5 {
+    padding: 0;
+    /* Eliminar padding para que las columnas encajen perfectamente */
+}
+
+.custom-box {
+    min-width: 190px;
+    max-width: 190px;
+    flex: 0 0 auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.custom-image {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custom-content {
+    padding: 10px;
+    background-color: white;
+    /* Optional: define a background color */
+}
+
+.custom-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}

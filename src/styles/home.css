@@ -1,0 +1,33 @@
+.horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    min-width: 280px;
+    max-width: 280px;
+    flex: 0 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.page-content {
+    padding-bottom: 90px;
+}
+
+.tittle {
+    color:#ffc107 !important
+}

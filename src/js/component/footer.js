@@ -1,10 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
+	<footer className="footer bg-dark text-white text-center py-3 mt-2">
+		<p className="text-warning m-0">May the Force be with you</p>
 	</footer>
 );
